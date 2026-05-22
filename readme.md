@@ -8,14 +8,14 @@
 ## 1. Definição da Solução
 
 ### Qual problema escolhemos resolver?
-[cite_start]O modelo atual de controle de vegetação é reativo, gerando intervenções desnecessárias que aumentam custos ou intervenções tardias que comprometem a segurança da via[cite: 11, 15]. [cite_start]A alta dependência de inspeções puramente humanas gera falhas de amostragem e escassez de dados em tempo real para a engenharia viária[cite: 13].
+O modelo atual de controle de vegetação é reativo, gerando intervenções desnecessárias que aumentam custos ou intervenções tardias que comprometem a segurança da via.  A alta dependência de inspeções puramente humanas gera falhas de amostragem e escassez de dados em tempo real para a engenharia viária.
 
 ### Quem é o usuário do app?
 * **Operador de campo:** O motorista ou passageiro da viatura de patrulha que utilizará o tablet embarcado.
-* [cite_start]**Fiscal de operações:** Profissional que acompanha o painel de rastreio para garantir a cobertura da malha rodoviária[cite: 25].
+*  **Fiscal de operações:** Profissional que acompanha o painel de rastreio para garantir a cobertura da malha rodoviária.
 
 ### Qual é a principal ação do app?
-[cite_start]A principal ação do aplicativo embarcado no tablet é gerenciar e monitorar trechos padronizados de 500 metros[cite: 23]. [cite_start]O sistema permite registrar as áreas mapeadas com sucesso pelas câmeras veiculares, alertar sobre falhas de captura e enviar o lote de imagens ao servidor centralizado[cite: 19].
+ A principal ação do aplicativo embarcado no tablet é gerenciar e monitorar trechos padronizados de 500 metros.  O sistema permite registrar as áreas mapeadas com sucesso pelas câmeras veiculares, alertar sobre falhas de captura e enviar o lote de imagens ao servidor centralizado.
 
 ---
 
@@ -24,20 +24,10 @@
 Para atender ao escopo de Mínimo Produto Viável e manter o foco no processo de coleta em campo, o aplicativo contará com as seguintes funcionalidades essenciais:
 
 * **Autenticação:** Login obrigatório do operador para iniciar o turno e vincular a coleta de dados à viatura correta.
-* [cite_start]**Listagem de Ocorrências (Trechos):** Painel exibindo quais trechos lógicos (fragmentos de 500m) estão pendentes de coleta e quais já possuem fotografias atualizadas[cite: 23, 25].
+*  **Listagem de Ocorrências (Trechos):** Painel exibindo quais trechos lógicos (fragmentos de 500m) estão pendentes de coleta e quais já possuem fotografias atualizadas.
 * **Cadastro de Ocorrência:** Ação para iniciar o mapeamento fotográfico de um trecho específico ou registrar manualmente uma anomalia na via/câmera.
 * **Visualização de Detalhe:** Tela com os dados de um trecho mapeado, exibindo o status do envio das fotos ao servidor e a geolocalização do segmento.
-* [cite_start]**Classificação de Risco:** Indicador visual (Baixo, Médio, Alto) apontando o status do trecho com base em coletas anteriores ou alertas visuais do próprio operador caso a vegetação já ofereça risco iminente de segurança[cite: 15, 54].
-
----
-
-## 3. Protótipo Navegável
-
-O protótipo de alta fidelidade foi desenvolvido no Figma, detalhando o fluxo do operador no tablet embarcado no veículo.
-
-* **Ferramenta:** Figma
-* **Telas Mapeadas:** Lista de ocorrências (trechos da rodovia), Nova ocorrência (iniciar mapeamento/reportar erro) e Detalhe da ocorrência.
-* **Link de Acesso:** `[INSERIR LINK DO FIGMA AQUI]`
+*  **Classificação de Risco:** Indicador visual (Baixo, Médio, Alto) apontando o status do trecho com base em coletas anteriores ou alertas visuais do próprio operador caso a vegetação já ofereça risco iminente de segurança.
 
 ---
 
