@@ -51,3 +51,29 @@ leafsense-app/
 ├── App.tsx              # Ponto de entrada do aplicativo e configuração de rotas
 ├── package.json         # Dependências do projeto
 └── tsconfig.json        # Configurações do compilador TypeScript
+
+---
+
+## 5. Instruções de Execução e Credenciais de Acesso (MVP)
+
+### Credenciais de Acesso (Demo)
+Para testar o fluxo de autenticação do aplicativo embarcado:
+*   **Matrícula:** `OP001`
+*   **Senha:** `1234`
+
+### Como Rodar o MVP Localmente
+1. Navegue até a pasta do aplicativo:
+   ```bash
+   cd leafsense-app
+   ```
+2. Inicie o servidor do Expo em modo web (ou para emuladores):
+   ```bash
+   npx expo start --web
+   ```
+3. Abra a URL informada (geralmente `http://localhost:8081`) no navegador.
+
+### Fluxo de Teste Sugerido
+1. **Tela de Login:** Insira as credenciais mock acima e clique em **Iniciar Turno**.
+2. **Tela de Listagem:** Visualize os trechos de 500m cadastrados, os status em tempo real (Coletado, Pendente, Crítico) e filtre-os pelos botões superiores.
+3. **Tela de Detalhes:** Clique em qualquer trecho da listagem para acessar suas informações de geolocalização, estatísticas de fotos, altura da vegetação calculada por IA e a timeline de manutenções. Você também pode simular a abertura de uma nova ocorrência clicando no botão inferior.
+
