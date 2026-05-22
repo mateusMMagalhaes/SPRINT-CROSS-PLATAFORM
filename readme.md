@@ -51,7 +51,7 @@ leafsense-app/
 ├── App.tsx              # Ponto de entrada do aplicativo e configuração de rotas
 ├── package.json         # Dependências do projeto
 └── tsconfig.json        # Configurações do compilador TypeScript
-
+```
 ---
 
 ## 5. Instruções de Execução e Credenciais de Acesso (MVP)
